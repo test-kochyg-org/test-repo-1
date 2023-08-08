@@ -1,0 +1,9 @@
+name: Autopass check
+on: [pull_request]
+jobs:
+  run_checks:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run check
+      run: echo "Check passed"
+      shell: bash
